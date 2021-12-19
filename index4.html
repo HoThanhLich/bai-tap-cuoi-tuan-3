@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrs = [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9],
+        [10, 11, 12],
+        [13, 14, 15]
+    ];
+    let sum = 0;
+    for (let i = 0; i < arrs.length; i++) {
+        for (let j = 0; j < arrs[i].length; j++) {
+            sum += arrs[i][j];
+        }
+    }
+    alert("Tổng các phần tử trong mảng là: " + sum );
+
+</script>
+</body>
+</html>
